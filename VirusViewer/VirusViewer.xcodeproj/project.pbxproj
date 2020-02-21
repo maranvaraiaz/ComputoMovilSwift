@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D7E52FC2400153E008AC273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E52FB2400153E008AC273 /* AppDelegate.swift */; };
+		7D7E52FE2400153E008AC273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E52FD2400153E008AC273 /* SceneDelegate.swift */; };
+		7D7E53002400153E008AC273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E52FF2400153E008AC273 /* ViewController.swift */; };
+		7D7E53032400153E008AC273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E53012400153E008AC273 /* Main.storyboard */; };
+		7D7E530524001540008AC273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E530424001540008AC273 /* Assets.xcassets */; };
+		7D7E530824001540008AC273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E530624001540008AC273 /* LaunchScreen.storyboard */; };
+		7D7E5341240033E1008AC273 /* virus3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E5337240033E1008AC273 /* virus3.jpg */; };
+		7D7E5342240033E1008AC273 /* virus6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E5338240033E1008AC273 /* virus6.jpg */; };
+		7D7E5343240033E1008AC273 /* virus1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E5339240033E1008AC273 /* virus1.jpg */; };
+		7D7E5344240033E1008AC273 /* virus4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E533A240033E1008AC273 /* virus4.jpg */; };
+		7D7E5345240033E1008AC273 /* virus7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E533B240033E1008AC273 /* virus7.jpg */; };
+		7D7E5346240033E1008AC273 /* virus9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E533C240033E1008AC273 /* virus9.jpg */; };
+		7D7E5347240033E1008AC273 /* virus5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E533D240033E1008AC273 /* virus5.jpg */; };
+		7D7E5348240033E1008AC273 /* virus8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E533E240033E1008AC273 /* virus8.jpg */; };
+		7D7E5349240033E1008AC273 /* virus2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E533F240033E1008AC273 /* virus2.jpg */; };
+		7D7E534A240033E1008AC273 /* virus10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7E5340240033E1008AC273 /* virus10.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D7E52F82400153E008AC273 /* VirusViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirusViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7E52FB2400153E008AC273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D7E52FD2400153E008AC273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D7E52FF2400153E008AC273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D7E53022400153E008AC273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D7E530424001540008AC273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D7E530724001540008AC273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D7E530924001540008AC273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D7E5337240033E1008AC273 /* virus3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus3.jpg; path = ../../virusAssets/virus3.jpg; sourceTree = "<group>"; };
+		7D7E5338240033E1008AC273 /* virus6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus6.jpg; path = ../../virusAssets/virus6.jpg; sourceTree = "<group>"; };
+		7D7E5339240033E1008AC273 /* virus1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus1.jpg; path = ../../virusAssets/virus1.jpg; sourceTree = "<group>"; };
+		7D7E533A240033E1008AC273 /* virus4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus4.jpg; path = ../../virusAssets/virus4.jpg; sourceTree = "<group>"; };
+		7D7E533B240033E1008AC273 /* virus7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus7.jpg; path = ../../virusAssets/virus7.jpg; sourceTree = "<group>"; };
+		7D7E533C240033E1008AC273 /* virus9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus9.jpg; path = ../../virusAssets/virus9.jpg; sourceTree = "<group>"; };
+		7D7E533D240033E1008AC273 /* virus5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus5.jpg; path = ../../virusAssets/virus5.jpg; sourceTree = "<group>"; };
+		7D7E533E240033E1008AC273 /* virus8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus8.jpg; path = ../../virusAssets/virus8.jpg; sourceTree = "<group>"; };
+		7D7E533F240033E1008AC273 /* virus2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus2.jpg; path = ../../virusAssets/virus2.jpg; sourceTree = "<group>"; };
+		7D7E5340240033E1008AC273 /* virus10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = virus10.jpg; path = ../../virusAssets/virus10.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D7E52F52400153E008AC273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D7E52EF2400153E008AC273 = {
+			isa = PBXGroup;
+			children = (
+				7D7E52FA2400153E008AC273 /* VirusViewer */,
+				7D7E52F92400153E008AC273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D7E52F92400153E008AC273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D7E52F82400153E008AC273 /* VirusViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D7E52FA2400153E008AC273 /* VirusViewer */ = {
+			isa = PBXGroup;
+			children = (
+				7D7E52FB2400153E008AC273 /* AppDelegate.swift */,
+				7D7E52FD2400153E008AC273 /* SceneDelegate.swift */,
+				7D7E52FF2400153E008AC273 /* ViewController.swift */,
+				7D7E53012400153E008AC273 /* Main.storyboard */,
+				7D7E530424001540008AC273 /* Assets.xcassets */,
+				7D7E5339240033E1008AC273 /* virus1.jpg */,
+				7D7E533F240033E1008AC273 /* virus2.jpg */,
+				7D7E5337240033E1008AC273 /* virus3.jpg */,
+				7D7E533A240033E1008AC273 /* virus4.jpg */,
+				7D7E533D240033E1008AC273 /* virus5.jpg */,
+				7D7E5338240033E1008AC273 /* virus6.jpg */,
+				7D7E533B240033E1008AC273 /* virus7.jpg */,
+				7D7E533E240033E1008AC273 /* virus8.jpg */,
+				7D7E533C240033E1008AC273 /* virus9.jpg */,
+				7D7E5340240033E1008AC273 /* virus10.jpg */,
+				7D7E530624001540008AC273 /* LaunchScreen.storyboard */,
+				7D7E530924001540008AC273 /* Info.plist */,
+			);
+			path = VirusViewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D7E52F72400153E008AC273 /* VirusViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D7E530C24001540008AC273 /* Build configuration list for PBXNativeTarget "VirusViewer" */;
+			buildPhases = (
+				7D7E52F42400153E008AC273 /* Sources */,
+				7D7E52F52400153E008AC273 /* Frameworks */,
+				7D7E52F62400153E008AC273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirusViewer;
+			productName = VirusViewer;
+			productReference = 7D7E52F82400153E008AC273 /* VirusViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D7E52F02400153E008AC273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Maranvaraiaz;
+				TargetAttributes = {
+					7D7E52F72400153E008AC273 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 7D7E52F32400153E008AC273 /* Build configuration list for PBXProject "VirusViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D7E52EF2400153E008AC273;
+			productRefGroup = 7D7E52F92400153E008AC273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D7E52F72400153E008AC273 /* VirusViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D7E52F62400153E008AC273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7E530824001540008AC273 /* LaunchScreen.storyboard in Resources */,
+				7D7E5348240033E1008AC273 /* virus8.jpg in Resources */,
+				7D7E5345240033E1008AC273 /* virus7.jpg in Resources */,
+				7D7E5341240033E1008AC273 /* virus3.jpg in Resources */,
+				7D7E5342240033E1008AC273 /* virus6.jpg in Resources */,
+				7D7E5346240033E1008AC273 /* virus9.jpg in Resources */,
+				7D7E5344240033E1008AC273 /* virus4.jpg in Resources */,
+				7D7E5343240033E1008AC273 /* virus1.jpg in Resources */,
+				7D7E5349240033E1008AC273 /* virus2.jpg in Resources */,
+				7D7E5347240033E1008AC273 /* virus5.jpg in Resources */,
+				7D7E534A240033E1008AC273 /* virus10.jpg in Resources */,
+				7D7E530524001540008AC273 /* Assets.xcassets in Resources */,
+				7D7E53032400153E008AC273 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D7E52F42400153E008AC273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7E53002400153E008AC273 /* ViewController.swift in Sources */,
+				7D7E52FC2400153E008AC273 /* AppDelegate.swift in Sources */,
+				7D7E52FE2400153E008AC273 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D7E53012400153E008AC273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D7E53022400153E008AC273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D7E530624001540008AC273 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D7E530724001540008AC273 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D7E530A24001540008AC273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D7E530B24001540008AC273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D7E530D24001540008AC273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2F6QZ34MU;
+				INFOPLIST_FILE = VirusViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Maranvaraiaz.VirusViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D7E530E24001540008AC273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2F6QZ34MU;
+				INFOPLIST_FILE = VirusViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Maranvaraiaz.VirusViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D7E52F32400153E008AC273 /* Build configuration list for PBXProject "VirusViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7E530A24001540008AC273 /* Debug */,
+				7D7E530B24001540008AC273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D7E530C24001540008AC273 /* Build configuration list for PBXNativeTarget "VirusViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D7E530D24001540008AC273 /* Debug */,
+				7D7E530E24001540008AC273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D7E52F02400153E008AC273 /* Project object */;
+}
