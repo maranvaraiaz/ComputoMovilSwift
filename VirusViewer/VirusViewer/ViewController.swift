@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController
+//Cambiamos UIViewController a UITableViewController
+class ViewController: UITableViewController
 {
     //Array sin contenido
     var pictures:[String] = [String]()
@@ -50,8 +50,23 @@ class ViewController: UIViewController
             //if item.hasSufix("jpg")
         }
         print(pictures)
-        
     }
+    //Segmentar secciones de renglones y devolvemos el count de cuantos vamos a observar
+    //Solo se manda a llamar una vez porque tenemos una sola sección
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return pictures.count
+    }
+    //Se manda a llamar la cantidad de veces que se ven en pantalla
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        //Sácar una celda reutilizable
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
+        //Desenvolver opcionales es con ! pero esta es una asignación
+        cell.textLabel?.text = pictures[indexPath.row]
+        return cell
+    }
+    //Sacar una celda del main y modificarla en código para ponerla en vista
     
     /*
     Avisarle a la app que hay que reducir el uso de memoría, si hacemos caso el sistema nos va a premiar dejándola abierta pero si no hacemos caso nos va a mandar un mensaje de que nos va a matars
@@ -59,6 +74,20 @@ class ViewController: UIViewController
         
     }*/
     
+    //Vamos a mandar el nombre de las imágenes
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        //1. Tratar de encontrar y relacionar la vista Detail
+        //El as es para garantizar que es de tipo DetailViewController
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController
+        {
+            //Éxito ya tengo referencia el view controler por medio del vc
+            //Asignar selectImage al string que toca el usuario
+            vc.selectedImage = pictures[indexPath.row]
+            //3. Cambiar la vista
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 
 }
 
