@@ -11,7 +11,7 @@ import UIKit
 class DetailViewController: UIViewController
 {
     //Anotación de que es un outlet de interface builder
-    //Es una clase que puede estar vácio y por eso UIImageView es opcional y estamos asegurando qu va a haber información
+    //Es una clase que puede estar vácio y por eso UIImageView es opcional y estamos asegurando que va a haber información
     //Misma localidad de memoría que en el main
     @IBOutlet weak var imageView: UIImageView!
     var selectedImage:String?
@@ -19,6 +19,11 @@ class DetailViewController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        //Modificamos el navigation controller del viewcontroller por medio de un enumerador (poner . para saber las opciones del enumerador o utilizamos la sintaxis completa)
+        //navigationItem.largeTitleDisplayMode = .never
+        navigationItem.largeTitleDisplayMode = UINavigationItem.LargeTitleDisplayMode.never
+        //title = "Virus Image"
+        title = selectedImage
         if let selectedImage = selectedImage
         {
             imageView.image = UIImage(named: selectedImage)

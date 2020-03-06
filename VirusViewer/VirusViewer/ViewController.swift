@@ -17,6 +17,10 @@ class ViewController: UITableViewController
         //Utilizar la función de viewDidLoad del padre con super(padre).viewDidLoad()
         //Ese super es la forma de acceder al contexto superior
         super.viewDidLoad()
+        //Acceso al navigator controler para hacer títulos grandes
+        navigationController?.navigationBar.prefersLargeTitles = true
+        //Propiedad del navigator controler
+        title = "Virus Viewer"
         //var a = 10; b = 20
         //Pide un argument label
         //var pictures:[String] = ["virus1","virus2","virus3"]
@@ -38,7 +42,7 @@ class ViewController: UITableViewController
         //Aquí ya sabemos que estamos en el viewDidLoad y se cargó la vista, por lo que utilizaremos el ! (-Force Unwrapp)
         //try! es que no haga caso ya que estamos garantizando que no hay error
         let items = try! fm.contentsOfDirectory(atPath: path!) //Force Throws
-        print("\(items)")
+        //print("\(items)")
         
         for item in items
         {
@@ -49,7 +53,7 @@ class ViewController: UITableViewController
             }
             //if item.hasSufix("jpg")
         }
-        print(pictures)
+        //print(pictures)
     }
     //Segmentar secciones de renglones y devolvemos el count de cuantos vamos a observar
     //Solo se manda a llamar una vez porque tenemos una sola sección
