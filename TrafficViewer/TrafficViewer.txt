@@ -1,0 +1,31 @@
+Creamos el proyecto
+Ponemos 3 ViewController
+Le ponemos backround de diferente color a cada ViewController
+Ponemos 3 botones y un segue para que cada button vaya a cada ViewController diferente.
+A cada UINavigationItem le ponemos el nombre de cada ViewController y lo que va a decir cada Back Button.
+A la primer pantalla le damos en embed in a un Navigation Controller.
+A la Navigation Bar le damos a Prefers Large Titles y así le damos a todos un buen titulo.
+
+Para regresar a la primer pantalla sin encolar las pantallas debemos hacer lo siguiente en el viewController
+
+@IBAction func unwindToGreen(unwindSegue: UIStoryboardSegue)
+    {
+        
+    }
+
+Y luego ponemos el button del Red con Control y dirigiendo el cursor a Exit (ViewController)
+
+Borramos el Segue y el button, finalmente ponemos un button arriba y le hacemos el mismo proceso.
+
+Creamos otras 2 pantallas y le ponemos color.
+Embed in al rojo y ponemos Tab Bar Controller.
+
+Los iconos de la Tab bar deben de ser diseñados por un tercero que use el tinte
+
+Utilizamos el tab bar controlar completo para poder ir a otra pantalla y le damos a relationship segué
+
+Para cambiar el símbolo es en cada pantalla destino
+
+Este nos va a dar un cambio en horizontal
+
+Usamos el Segue manual y los pasos vienen en el ViewController.swift
