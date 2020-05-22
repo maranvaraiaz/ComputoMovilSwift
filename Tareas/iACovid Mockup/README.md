@@ -19,5 +19,5 @@ En la primer pantalla debe entrar a "Sign In" y poner el siguiente usuario y con
 
 Hay unas cuantas pantallas donde no hay botón de regreso pero para regresar se le debe dar click al logo de la aplicación.
 
-Nota: Abrir el archivo index.html en el navegador Google Chrome
+* Nota: Abrir el archivo index.html en el navegador Google Chrome
 
