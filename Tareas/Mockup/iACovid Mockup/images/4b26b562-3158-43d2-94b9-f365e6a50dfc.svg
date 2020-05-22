@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="40px" viewBox="0 0 35 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Unlock Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Lock-Screen---Notification" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-177.000000, -40.000000)">
+        <path d="M193.5,60 L193.5,48.852459 C193.5,43.9633809 197.529437,40 202.5,40 C207.470563,40 211.5,43.9633809 211.5,48.852459 L211.5,56.3879623 C211.5,57.2028087 210.828427,57.8633722 210,57.8633722 C209.171573,57.8633722 208.5,57.2028087 208.5,56.3879623 L208.5,48.852459 C208.5,45.5930736 205.813708,42.9508197 202.5,42.9508197 C199.186292,42.9508197 196.5,45.5930736 196.5,48.852459 L196.5,60 L197,60 C198.656854,60 200,61.3431458 200,63 L200,77 C200,78.6568542 198.656854,80 197,80 L180,80 C178.343146,80 177,78.6568542 177,77 L177,63 C177,61.3431458 178.343146,60 180,60 L193.5,60 Z" id="Unlock-Icon" fill="#FFFFFF"></path>
+    </g>
+</svg>
